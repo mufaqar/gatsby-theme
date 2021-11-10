@@ -36,6 +36,7 @@ const Header = ({ data }) => {
                 <Container className="container-max">
                     <ManimenuWrap>
                         <Logo />
+
                         <Menu>
                             <MainMenu allmenuData={data.menu} />
                             <Button
